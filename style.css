@@ -1,5 +1,10 @@
-/* .header{
+body{
+    width: auto;
+}
+/* .top{
     background-color: cornflowerblue;
+    border:5px solid rgb(0, 0, 0);
+    margin: 0 -8px;
 } */
 .logo img{
     display: inline;
@@ -13,14 +18,16 @@
     background-color: lightblue;
 }
 .bar{
-    float: right;
     text-align: center;
     width: 5%;
     margin-top: 10px;
     margin-left: 5px;
     padding: 0.5% 0.75%;
     border-radius: 5px;
-    background-color: lightblue;
+    /* background-color: lightblue; */
+}
+.bar:hover{
+    background-color: rgba(173, 216, 230, 0.3);
 }
 .bar a{
     color: black;
@@ -28,32 +35,54 @@
 }
 .nav{
     display: inline;
+    display: flex;
+    justify-content: end;
 }
 .first{
     display: inline-block;
     margin-top: 30px;
     margin-left: 43px;
 }
-.box-1{
-    width: 500px;
-    height: 350px;
+/* .box-1{
+    margin-top: 0px;
+    width: 450px;
+    height: 300px;
+} */
+.sub-box{
+    margin: 10px;
+    margin-left: 0px;
+    width: 300px;
+    height: 143px;
     border: 2px solid lightblue;
     background-color: rgb(202, 202, 202);
 }
 .box-2{
-    width: 700px;
-    height: 350px;
+    margin: 10px;
+    width: 550px;
+    height: 300px;
     border: 2px solid lightblue;
     background-color: rgb(202, 202, 202);
 }
-.table{
-    margin: 23px;
+.box-3{
+    margin: 10px;
+    width: 350px;
+    height: 300px;
+    border: 2px solid lightblue;
+    background-color: rgb(202, 202, 202);
+}
+/* .table{
     border: 1px solid steelblue;
     width: 450px;
     height: 300px;
 }
 .table td,th{
+    text-align: center;
     border: 1px solid steelblue;
     background-color: rgb(190, 235, 221);
+} */
+.second{
+    height: 300px;
+    border: 2px solid lightblue;
+    background-color: rgb(202, 202, 202);
 }
 
