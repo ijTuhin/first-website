@@ -38,6 +38,13 @@ body{
     display: flex;
     justify-content: end;
 }
+.box-0{
+    margin: 10px;
+    width: 600px;
+    height: 350px;
+    border: 2px solid lightblue;
+    /* background-color: rgb(202, 202, 202); */
+}
 .first{
     display: inline-block;
     margin-top: 30px;
@@ -84,19 +91,35 @@ body{
     background-color: rgb(190, 235, 221);
 } */
 .second{
-    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 43px;
+}
+.box-4{
+    margin: 10px;
+    margin-left: 110px;
+    width: 600px;
+    height: 350px;
+    border: 2px solid lightblue;
+    /* background-color: rgb(202, 202, 202); */
+}
+.box-5{
+    margin-bottom: 30px;
+    width: 350px;
+    height: 300px;
+    border: 2px solid lightblue;
+    /* background-color: rgb(202, 202, 202); */
 }
 #slider{
     position: sticky;
     left: 0px;
     top: 0px;
-    bottom: 20px;
-    height: 600px;
+    height: 650px;
     background-color: rgba(164, 187, 183, 0.25);
 }
 .dummy{
     width: 250px;
     height: 160px;
-    background-color: rgb(224, 222, 186);
+    /* background-color: rgb(224, 222, 186); */
 }
 
