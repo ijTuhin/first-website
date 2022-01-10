@@ -11,7 +11,7 @@ body{
     float: left;
     
     margin-top: -5px;
-    width: 3.5%;
+    width: 3%;
     height: 3%;
     border: none solid;
     border-radius: 50%;
@@ -51,24 +51,27 @@ body{
 .sub-box{
     margin: 10px;
     margin-left: 0px;
-    width: 300px;
+    width: 350px;
     height: 143px;
     border: 2px solid lightblue;
-    background-color: rgb(202, 202, 202);
+    /* background-color: rgb(202, 202, 202); */
+}
+.box-1{
+    margin-left: 8px;
 }
 .box-2{
     margin: 10px;
     width: 550px;
     height: 300px;
     border: 2px solid lightblue;
-    background-color: rgb(202, 202, 202);
+    /* background-color: rgb(202, 202, 202); */
 }
 .box-3{
     margin: 10px;
     width: 350px;
     height: 300px;
     border: 2px solid lightblue;
-    background-color: rgb(202, 202, 202);
+    /* background-color: rgb(202, 202, 202); */
 }
 /* .table{
     border: 1px solid steelblue;
@@ -81,8 +84,19 @@ body{
     background-color: rgb(190, 235, 221);
 } */
 .second{
-    height: 300px;
-    border: 2px solid lightblue;
-    background-color: rgb(202, 202, 202);
+    position: relative;
+}
+#slider{
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    bottom: 20px;
+    height: 600px;
+    background-color: rgba(164, 187, 183, 0.25);
+}
+.dummy{
+    width: 250px;
+    height: 160px;
+    background-color: rgb(224, 222, 186);
 }
 
